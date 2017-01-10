@@ -1,5 +1,9 @@
-h1 {
+h1, h2 {
   text-align: center;
+}
+
+uo {
+  border: 2px solid black;
 }
 
 img {
