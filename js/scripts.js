@@ -4,7 +4,16 @@ $(document).ready(function() {
   });
 
   $("button#meow").click(function() {
-    $("ul#catDialogue").append("<li>MEEOWWW!!!</li>");
+    $("ul#catDialogue").append("<li>MEEOOOWW!!!</li>");
   });
+
+  $("button#barking").click(function() {
+    $("ul#dog-barking").append("<li><img src=\"img/dog-bark.jpg\"></li>");
+
+    $("ul#dog-barking").children("li").last().click(function() {
+      $(this).remove();
+    });
+  });
+
 
 });

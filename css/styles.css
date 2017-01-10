@@ -11,3 +11,7 @@ img {
   width: 400px;
   margin-right: 20%;
 }
+
+ul {
+  list-style-type: none;
+}
